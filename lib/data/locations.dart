@@ -1,12 +1,11 @@
-
 import '../model/location.dart';
 import '../model/review.dart';
 import '../data/reviews.dart';
 
 List<Location> locations = [
   Location(
-    name: 'ATCOASTAL',
-    urlImage: 'assets/sea.jpg',
+    name: 'AMERICA',
+    urlImage: 'assets/sea2.jpg',
     addressLine1: 'La Cresenta-Montrose, CA91020 Glendale',
     addressLine2: 'NO. 791187',
     starRating: 4,
@@ -17,7 +16,7 @@ List<Location> locations = [
   Location(
     name: 'SYRACUSE',
     urlImage: 'assets/mountain.jpg',
-    addressLine1: 'La Cresenta-Montrose, CA91020 Glendale',
+    addressLine1: 'La Cresenta-Montrose, CA91021 Glendale',
     addressLine2: 'NO. 11641',
     starRating: 4,
     latitude: 'SOUTH LAT 14',
@@ -27,8 +26,8 @@ List<Location> locations = [
   Location(
     name: 'OCEANIC',
     urlImage: 'assets/sea2.jpg',
-    addressLine1: 'La Cresenta-Montrose, CA91020 Glendale',
-    addressLine2: 'NO. 791187',
+    addressLine1: 'La Cresenta-Montrose, CA91022 Glendale',
+    addressLine2: 'NO. 791188',
     starRating: 4,
     latitude: 'NORTH LAT 24',
     longitude: 'WEST LNG 08',
@@ -37,13 +36,13 @@ List<Location> locations = [
   Location(
     name: 'MOUNTAINOUS',
     urlImage: 'assets/mountain2.jpg',
-    addressLine1: 'La Cresenta-Montrose, CA91020 Glendale',
-    addressLine2: 'NO. 791187',
+    addressLine1: 'La Cresenta-Montrose, CA91023 Glendale',
+    addressLine2: 'NO. 791189',
     starRating: 4,
     latitude: 'SOUTH LAT 39',
     longitude: 'WEST LNG 41',
     reviews: [],
-  ),  
+  ),
 ];
 
 class Reviews {

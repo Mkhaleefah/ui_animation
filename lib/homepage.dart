@@ -13,7 +13,7 @@ class HomePage extends StatelessWidget {
   PreferredSizeWidget buildAppBar() => AppBar(
         elevation: 0,
         backgroundColor: Colors.transparent,
-        title: Text('INTERESTS'),
+        title: Text('UI ANIMATIONS'),
         centerTitle: true,
         actions: [
           IconButton(
@@ -50,5 +50,3 @@ class HomePage extends StatelessWidget {
         ],
       );
 }
-
-

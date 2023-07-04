@@ -26,10 +26,12 @@ class ExpandedContentWidget extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.end,
           children: [
             Text(location.addressLine1),
-            SizedBox(height: 8),
-            // buildAddressRating(location: location),
-            SizedBox(height: 12),
-            buildReview(location: location)
+            // buildReview(location: location),
+            //Text(location.addressLine1),
+            //SizedBox(height: 8),
+            buildAddressRating(location: location),
+            //SizedBox(height: 12),
+            //buildReview(location: location)
           ],
         ),
       );
@@ -45,8 +47,7 @@ class ExpandedContentWidget extends StatelessWidget {
             style: TextStyle(color: Colors.black45),
           ),
           StarsWidget(
-            stars: location.starRating,
-            key: key!,
+            stars: 3,
           ),
         ],
       );

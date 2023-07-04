@@ -4,7 +4,6 @@ import '../model/location.dart';
 import '../widget/expanded_container.dart';
 import '../widget/image_widget.dart';
 
-
 class LocationWidget extends StatefulWidget {
   final Location location;
 
